@@ -24,7 +24,7 @@ namespace MaracaApp
         public MaracaMotionManager()
         {
             _lastActive = new Stopwatch();
-            _soundInterval = 100;
+            _soundInterval = 250;
         }
 
         public MaracaSoundEffects SoundEffects { get; set; }

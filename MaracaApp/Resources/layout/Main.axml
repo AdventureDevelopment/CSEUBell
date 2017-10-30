@@ -21,5 +21,13 @@
         android:layout_height="175dp"
         android:gravity="center|bottom"
         android:orientation="vertical"
-        android:padding="10dp" />
+        android:padding="10dp"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_gravity="center"
+            android:id="@+id/spinner1" />
+    </LinearLayout>
 </LinearLayout>

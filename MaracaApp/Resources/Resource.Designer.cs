@@ -60,8 +60,11 @@ namespace MaracaApp
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f070000
-			public const int imageView1 = 2131165184;
+			// aapt resource value: 0x7f080000
+			public const int imageView1 = 2131230720;
+			
+			// aapt resource value: 0x7f080001
+			public const int spinner1 = 2131230721;
 			
 			static Id()
 			{
@@ -109,10 +112,28 @@ namespace MaracaApp
 		{
 			
 			// aapt resource value: 0x7f050000
-			public const int scream = 2131034112;
+			public const int baseKick = 2131034112;
 			
 			// aapt resource value: 0x7f050001
-			public const int tap = 2131034113;
+			public const int CartoonLaugh = 2131034113;
+			
+			// aapt resource value: 0x7f050002
+			public const int cat = 2131034114;
+			
+			// aapt resource value: 0x7f050003
+			public const int Cheer = 2131034115;
+			
+			// aapt resource value: 0x7f050004
+			public const int clownHorn = 2131034116;
+			
+			// aapt resource value: 0x7f050005
+			public const int Dog = 2131034117;
+			
+			// aapt resource value: 0x7f050006
+			public const int incorrect = 2131034118;
+			
+			// aapt resource value: 0x7f050007
+			public const int tap = 2131034119;
 			
 			static Raw()
 			{
@@ -136,6 +157,22 @@ namespace MaracaApp
 			}
 			
 			private String()
+			{
+			}
+		}
+		
+		public partial class Style
+		{
+			
+			// aapt resource value: 0x7f070000
+			public const int AppTheme = 2131165184;
+			
+			static Style()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Style()
 			{
 			}
 		}
